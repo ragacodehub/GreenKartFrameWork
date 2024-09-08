@@ -14,7 +14,7 @@ import GreenKartPages.submitOrder;
 
 public class placeOrderTest extends BaseTest {
 
-	WebDriver driver; // = new ChromeDriver();
+	WebDriver driver;
 
 	public placeOrderTest(WebDriver driver) {
 		super(driver);
