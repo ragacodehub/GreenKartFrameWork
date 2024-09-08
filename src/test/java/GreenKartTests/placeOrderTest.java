@@ -26,7 +26,7 @@ public class placeOrderTest extends BaseTest {
 	public void placeOrder() throws IOException {
 
 		BaseTest base = new BaseTest(driver);
-		base.initializeVariables();
+		base.initializeVariables();// Setting Country name and Product Name
 		HomePage homepage = new HomePage(driver);
 		homepage.addProductToCart(base.getProductName());
 		checkoutOrderPage checkoutOrder = homepage.checkoutCart();
